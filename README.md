@@ -1,5 +1,6 @@
-[![python](http://forthebadge.com/images/badges/made-with-python.svg)](http://github.com/mortea15/kim)
 # Kim :snake:
+
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)]()[![Python](https://img.shields.io/badge/python-2.7-blue.svg)]()[![Whiterose](https://img.shields.io/badge/kim-v1.0-orange.svg)
 
 Kim is an open source, Raspberry Pi-powered virtual assistant. Written in :snake:Python. We'd love help of any kind, whether you'd like to contribute by submitting a bug, or have a request for a feature. You can also contribute with development, but please read the guidelines on [Contribution](#contribution) before you begin.
 
