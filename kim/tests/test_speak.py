@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8-*-
-import kim
+from kim import kim
 
 spk = kim.Speak(device='plughw:0,0',
                         resources='/home/pi/kim/resources/audio')
