@@ -3,7 +3,7 @@
 from kim import kim
 
 spk = kim.Speak(device='plughw:0,0',
-                        resources='/home/pi/kim/resources/audio')
+                        resources='/home/pi/kim/kim/resources/audio')
 
 spk.beep(1)
 spk.beep(0)
