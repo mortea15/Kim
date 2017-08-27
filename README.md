@@ -23,7 +23,7 @@ Kim is an open source, Raspberry Pi-powered virtual assistant. Written in :snake
 
 - To run the assistant, open a command line and type
 ```sh
-sudo python kim.py
+$ sudo python kim.py
 ```
 
 **The launcher.sh script is used to run the python script on reboot**
@@ -32,7 +32,7 @@ _In order to get this working, you'll need to do the following:_
 
 ```sh
 
-sudo crontab -e
+$ sudo crontab -e
 
 @reboot sh /home/pi/kim/launcher.sh >/home/pi/logs/cronlog 2>&1
 
