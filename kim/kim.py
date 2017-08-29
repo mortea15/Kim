@@ -23,6 +23,7 @@ class Listen(threading.Thread):
         def execute(cmd):
             popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
             stdout_lines = iter(popen.stdout.readline, "")
+
             for stdout_line in stdout_lines:
                 yield stdout_line
 
@@ -69,7 +70,7 @@ class Speak(object):
         with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as f:
             fname = f.name
 
-        cmd = ['pico2wave', '--wave', fname, phrase.lower()]
+        cmd = ['pico2wave', '-w', fname, phrase.lower()]
         subprocess.call(cmd)
 
         self.play(fname)
@@ -83,7 +84,7 @@ def listener(lstn, spk, callback,
 
     def loop():
         while 1:
-            lstn.listener(True)
+            lstn.listen(True)
             ph = lstn.phrase_queue.get(block=True)
 
             if ph.split(' ')[-1] == callsign.upper():
@@ -96,7 +97,7 @@ def listener(lstn, spk, callback,
                 else:
                     spk.beep(0)
 
-                    lstn.listener(False)
+                    lstn.listen(False)
                     while not lstn.phrase_queue.empty():
                         lstn.phrase_queue.get(block=False)
 
