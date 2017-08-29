@@ -4,6 +4,7 @@ python:
   - "2.7"
 
 before_install:
+  - sudo add-apt-repository "deb http://mirrors.kernel.org/ubuntu zesty main universe"
   - sudo apt-get update
   - sudo apt-get install $(cat deb_reqs.txt)
   - wget http://ftp.us.debian.org/debian/pool/main/p/pocketsphinx/pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
