@@ -4,9 +4,11 @@ python:
   - "2.7"
 
 before_install:
+  - wget http://ftp.us.debian.org/debian/pool/main/p/pocketsphinx/pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
+  - sudo apt-get install gdebi-core
+  - sudo gdebi pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
   - sudo apt-get update
   - sudo apt-get install libttspico-utils
-  - sudo apt-get install pocketsphinx
 
 script:
   - py.test
