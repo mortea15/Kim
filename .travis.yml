@@ -4,12 +4,14 @@ python:
   - "2.7"
 
 before_install:
+  - sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse"
+  - sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse"
+  - sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse"
+  - sudo apt-get update
+  - sudo apt-get install $(cat deb_reqs.txt)
   - wget http://ftp.us.debian.org/debian/pool/main/p/pocketsphinx/pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
-  - sudo apt-get install libpocketsphinx3
   - sudo gdeb pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
   - sudo apt-get install -f
-  - sudo apt-get update
-  - sudo apt-get install libttspico-utils
 
 script:
   - py.test
