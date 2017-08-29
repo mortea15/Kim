@@ -1,0 +1,89 @@
+Hi
+Hello
+Kim
+KIM
+kim
+Kim!
+Help
+How are you
+Good morning
+Night
+Afternoon
+What's up
+What's the weather like
+How hot is it
+What time is it
+in
+Who are you
+What can you do
+Who am I
+Turn on my
+Turn off my
+Turn on the
+Turn off the
+fan
+pc
+coffee maker
+boiler
+lights
+speakers
+TV
+Play music
+Play me some music from YouTube
+Next bus to the city
+Next bus to downtown
+Next bus to UiA
+Next bus to U i A
+How is my schedule today
+What's next on my agenda
+Do I have any meetings today
+Read me the news
+Dollar
+Euro
+NOK
+Norwegian Kroner
+Kroner
+To
+Oslo
+Trondheim
+Kristiansand
+Berlin
+London
+New York
+Tokyo
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+One
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+Eleven
+Twelve
+Thirteen
+Fourteen
+Fifteen
+Sixteen
+Seventeen
+Eighteen
+Nineteen
+Twenty
+Thirty
+Fourty
+Fifty
+Sixty
+Seventy
+Eighty
+Ninety
+Hundred
+Weekend
