@@ -8,5 +8,8 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install $(cat deb_reqs.txt)
 
+install:
+  - pip install unittest2
+
 script:
-  - py.test
+  - python tests/test_speech.py
