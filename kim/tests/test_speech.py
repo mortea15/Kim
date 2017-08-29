@@ -1,10 +1,12 @@
 import unittest
-import kim
+from kim import kim
 
 spk = kim.Speak(device='plughw:0,0',
-                        resources='../resources/audio')
+                resources='../resources/audio')
+
 
 class Speech(unittest.TestCase):
+
     def setUp(self):
         print 'Setting up Speech Test'
 
