@@ -10,7 +10,7 @@ before_install:
   - cd kim/
   - sudo python setup.py develop
   - cd ../
-  - python -c "import kim"
+  - export PYTHONPATH="${PYTHONPATH}:/home/travis/build/kim/kim/"
 
 install:
   - pip install unittest2
