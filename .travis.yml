@@ -7,6 +7,9 @@ before_install:
   - sudo add-apt-repository "deb http://mirrors.kernel.org/ubuntu zesty main universe"
   - sudo apt-get update
   - sudo apt-get install $(cat deb_reqs.txt)
+  - cd kim/
+  - sudo setup.py develop
+  - cd ../
 
 install:
   - pip install unittest2
