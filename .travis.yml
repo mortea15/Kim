@@ -5,7 +5,8 @@ python:
 
 before_install:
   - wget http://ftp.us.debian.org/debian/pool/main/p/pocketsphinx/pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
-  - sudo dpkg -i pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
+  - sudo apt-get install libpocketsphinx3
+  - sudo gdeb pocketsphinx_0.8+5prealpha-2+b1_amd64.deb
   - sudo apt-get install -f
   - sudo apt-get update
   - sudo apt-get install libttspico-utils
