@@ -1,5 +1,5 @@
 import unittest
-from kim import kim
+import kim
 
 spk = kim.Speak(device='plughw:0,0',
                         resources='../resources/audio')
