@@ -12,4 +12,4 @@ install:
   - pip install unittest2
 
 script:
-  - python tests/test_speech.py
+  - python kim/tests/test_speech.py
