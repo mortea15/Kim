@@ -1,5 +1,12 @@
 language: python
+
 python:
-  - 2.7
+  - "2.7"
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install libttspico-utils
+  - sudo apt-get install pocketsphinx
+
 script:
   - py.test
