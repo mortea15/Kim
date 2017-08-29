@@ -2,3 +2,4 @@ pocketsphinx
 libsphinxbase3
 libpocketsphinx3
 libttspico-utils
+alsa-utils
