@@ -12,8 +12,7 @@ class Speech(unittest.TestCase):
 
     def test_beep(self):
         print 'Beep'
-        spk.beep(0)
-        spk.beep(1)
+        spk.beep()
 
     def test_speak(self):
         print 'TTS Test'
