@@ -1,4 +1,4 @@
-# Kim :snake:
+# Whiterose :snake:
 
 [![Build Status](https://travis-ci.org/mortea15/kim.svg?branch=master)](https://travis-ci.org/mortea15/kim)
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
