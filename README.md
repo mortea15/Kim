@@ -1,11 +1,11 @@
-# Kim :snake:
+# whiterose :snake:
 
 [![Build Status](https://travis-ci.org/mortea15/whiterose.svg?branch=master)](https://travis-ci.org/mortea15/whiterose)
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 [![Python](https://img.shields.io/badge/python-2.7-blue.svg)]()
 [![Whiterose](https://img.shields.io/badge/whiterose-v0.1-orange.svg)]()
 
-Kim is an open source, Raspberry Pi-powered virtual assistant. Written in :snake:Python. We'd love help of any kind, whether you'd like to contribute by submitting a bug, or have a request for a feature. You can also contribute with development, but please read the guidelines on [Contribution](#contribution) before you begin.
+whiterose is an open source, Raspberry Pi-powered virtual assistant. Written in :snake:Python. We'd love help of any kind, whether you'd like to contribute by submitting a bug, or have a request for a feature. You can also contribute with development, but please read the guidelines on [Contribution](#contribution) before you begin.
 
 
 ## Table of contents
@@ -45,7 +45,7 @@ https://github.com/mortea15/whiterose/wiki
 Coming soon
 
 ## Contribution
-We would love your help in the development of Kim. Please follow our guidelines on [Contribution](#contribution) on how to report bugs and request features you'd like to see, in addition to how you can contribute with development.
+We would love your help in the development of whiterose. Please follow our guidelines on [Contribution](#contribution) on how to report bugs and request features you'd like to see, in addition to how you can contribute with development.
 By following these guidelines, we make sure that communication is efficient and understandable, which hopefully will help us improve the project.
 
 ## Bugs and feature requests
