@@ -77,7 +77,7 @@ class Speak(object):
 
 
 def listener(lstn, spk, callback,
-             callsign='KIM', attention_span=10, forever=True):
+             callsign='WHITEROSE', attention_span=10, forever=True):
     lstn.daemon = True
     lstn.start()
 
