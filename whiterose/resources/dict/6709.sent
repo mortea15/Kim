@@ -1,9 +1,9 @@
 <s> HI </s>
 <s> HELLO </s>
-<s> KIM </s>
-<s> KIM </s>
-<s> KIM </s>
-<s> KIM! </s>
+<s> WHITEROSE </s>
+<s> WHITEROSE </s>
+<s> WHITEROSE </s>
+<s> WHITEROSE! </s>
 <s> HELP </s>
 <s> HOW ARE YOU </s>
 <s> GOOD MORNING </s>
@@ -34,9 +34,11 @@
 <s> NEXT BUS TO DOWNTOWN </s>
 <s> NEXT BUS TO UIA </s>
 <s> NEXT BUS TO U I A </s>
+<s> NEXT BUS TO SCHOOL </s>
 <s> HOW IS MY SCHEDULE TODAY </s>
 <s> WHAT'S NEXT ON MY AGENDA </s>
 <s> DO I HAVE ANY MEETINGS TODAY </s>
+<s> WHAT'S ON MY AGENDA TODAY </s>
 <s> READ ME THE NEWS </s>
 <s> DOLLAR </s>
 <s> EURO </s>
@@ -51,6 +53,7 @@
 <s> LONDON </s>
 <s> NEW YORK </s>
 <s> TOKYO </s>
+<s> TOMORROW </s>
 <s> MONDAY </s>
 <s> TUESDAY </s>
 <s> WEDNESDAY </s>
@@ -87,3 +90,4 @@
 <s> NINETY </s>
 <s> HUNDRED </s>
 <s> WEEKEND </s>
+<s> WEEK </s>
