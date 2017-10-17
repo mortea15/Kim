@@ -1,9 +1,9 @@
 # Kim :snake:
 
-[![Build Status](https://travis-ci.org/mortea15/kim.svg?branch=master)](https://travis-ci.org/mortea15/kim)
+[![Build Status](https://travis-ci.org/mortea15/whiterose.svg?branch=master)](https://travis-ci.org/mortea15/whiterose)
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 [![Python](https://img.shields.io/badge/python-2.7-blue.svg)]()
-[![Whiterose](https://img.shields.io/badge/kim-v0.1-orange.svg)]()
+[![Whiterose](https://img.shields.io/badge/whiterose-v0.1-orange.svg)]()
 
 Kim is an open source, Raspberry Pi-powered virtual assistant. Written in :snake:Python. We'd love help of any kind, whether you'd like to contribute by submitting a bug, or have a request for a feature. You can also contribute with development, but please read the guidelines on [Contribution](#contribution) before you begin.
 
@@ -23,7 +23,7 @@ Kim is an open source, Raspberry Pi-powered virtual assistant. Written in :snake
 
 - To run the assistant, open a command line and type
 ```sh
-sudo python kim.py
+sudo python whiterose.py
 ```
 
 **The launcher.sh script is used to run the python script on reboot**
@@ -34,12 +34,12 @@ _In order to get this working, you'll need to do the following:_
 
 sudo crontab -e
 
-@reboot sh /home/pi/kim/launcher.sh >/home/pi/logs/cronlog 2>&1
+@reboot sh /home/pi/whiterose/launcher.sh >/home/pi/logs/cronlog 2>&1
 
 ```
 
 ## Documentation
-https://github.com/mortea15/kim/wiki
+https://github.com/mortea15/whiterose/wiki
 
 ## Features
 Coming soon
@@ -58,7 +58,7 @@ Definition of a bug:
 A bug is an error, fault or failure in the application which is caused by the sourcecode found in this repository, which results in an incorrect or unexpected result.
 
 We appreciate feedback of any sort, and it helps us in developing a great service. Thank you!
-- Please browse the [issue tracker](https://github.com/mortea15/kim/issues) before you submit a bug or feature, to avoid duplicate entries.
+- Please browse the [issue tracker](https://github.com/mortea15/whiterose/issues) before you submit a bug or feature, to avoid duplicate entries.
 - Before submitting, make sure to pull the latest version to check if the bug is fixed, or feature is implemented.
 - Stick to ONE bug per issue.
 * Please use the following format when submitting:
@@ -89,10 +89,10 @@ We're open for adding new features, please keep in mind that it should be of rel
 
 ### Pull requests
 - Please include documentation on all code submitted
-- If a new feature is implemented, it should be explained with detail in the [Wiki](https://github.com/mortea15/kim/wiki)
+- If a new feature is implemented, it should be explained with detail in the [Wiki](https://github.com/mortea15/whiterose/wiki)
 
 ## License
-[GPL3.0](https://github.com/mortea15/kim/blob/master/LICENSE)
+[GPL3.0](https://github.com/mortea15/whiterose/blob/master/LICENSE)
 
 ## Contributors
 **Developed by:**
