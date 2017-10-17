@@ -1,7 +1,7 @@
 import unittest
-from kim import kim
+from whiterose import whiterose
 
-spk = kim.Speak(device='plughw:0,0',
+spk = whiterose.Speak(device='plughw:0,0',
                 resources='../resources/audio')
 
 
