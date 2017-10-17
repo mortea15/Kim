@@ -3,8 +3,8 @@
 from setuptools import setup
 
 setup(
-    name='kim',
-    py_modules=['kim'],
+    name='whiterose',
+    py_modules=['whiterose'],
 
     version='0.1',
 
@@ -12,9 +12,9 @@ setup(
 
     long_description='',
 
-    url='https://github.com/mortea15/kim',
+    url='https://github.com/mortea15/whiterose',
 
-    authors=['Morten Amundsen', 'Svenn-Roger Sørensen', 'Benjamin Gutierrez Børresen', 'Erik Haaland'],
+    author=['Morten Amundsen', 'Svenn-Roger Sørensen', 'Benjamin Gutierrez Børresen'],
 
     license='GPL-3.0',
 
