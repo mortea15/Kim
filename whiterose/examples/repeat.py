@@ -3,8 +3,8 @@
 from whiterose import whiterose
 
 lstn = whiterose.Listen(adcdev='plughw:1,0',
-                lm='/home/pi/whiterose/whiterose/resources/dict/0014.lm',
-                dict='/home/pi/whiterose/whiterose/resources/dict/0014.dic')
+                lm='/home/pi/whiterose/whiterose/resources/dict/6709.lm',
+                dict='/home/pi/whiterose/whiterose/resources/dict/6709.dic')
 
 spk = whiterose.Speak(device='plughw:0,0',
 		resources='/home/pi/whiterose/whiterose/resources/audio/')
