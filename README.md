@@ -1,6 +1,6 @@
 # Whiterose :snake:
 
-[![Build Status](https://travis-ci.org/mortea15/kim.svg?branch=master)](https://travis-ci.org/mortea15/kim)
+[![Build Status](https://travis-ci.org/mortea15/whiterose.svg?branch=master)](https://travis-ci.org/mortea15/whiterose)
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 [![Python](https://img.shields.io/badge/python-2.7-blue.svg)]()
 [![Whiterose](https://img.shields.io/badge/whiterose-v0.1-orange.svg)]()
