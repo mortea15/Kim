@@ -99,3 +99,4 @@ We're open for adding new features, please keep in mind that it should be of rel
 - [Morten Amundsen](https://github.com/mortea15/)
 - [Svenn-Roger Sørensen](https://github.com/tjodalv2k/)
 - [Benjamin Gutierrez Børresen](https://github.com/Bunnymann/)
+- [Vegard Aven Sætre](https://github.com/SpacedAven/)
