@@ -1,9 +1,9 @@
 Hi
 Hello
-Kim
-KIM
-kim
-Kim!
+Whiterose
+WHITEROSE
+whiterose
+Whiterose!
 Help
 How are you
 Good morning
@@ -34,9 +34,11 @@ Next bus to the city
 Next bus to downtown
 Next bus to UiA
 Next bus to U i A
+Next bus to school
 How is my schedule today
 What's next on my agenda
 Do I have any meetings today
+What's on my agenda today
 Read me the news
 Dollar
 Euro
@@ -51,6 +53,7 @@ Berlin
 London
 New York
 Tokyo
+Tomorrow
 Monday
 Tuesday
 Wednesday
@@ -87,3 +90,4 @@ Eighty
 Ninety
 Hundred
 Weekend
+Week

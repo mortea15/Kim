@@ -40,8 +40,6 @@ I - Main
 IN - Main 
 IS - Main 
 IT - Main 
-KIM - Main 
-KIM - By LtoS rules
 KRISTIANSAND - By LtoS rules
 KRONER - Main 
 LIGHTS - Main 
@@ -72,6 +70,7 @@ PLAY - Main
 READ - Main 
 SATURDAY - Main 
 SCHEDULE - Main 
+SCHOOL - Main 
 SEVEN - Main 
 SEVENTEEN - Main 
 SEVENTY - Main 
@@ -91,6 +90,7 @@ TIME - Main
 TO - Main 
 TODAY - Main 
 TOKYO - Main 
+TOMORROW - Main 
 TRONDHEIM - By LtoS rules
 TUESDAY - Main 
 TURN - Main 
@@ -103,9 +103,12 @@ UIA - By LtoS rules
 UP - Main 
 WEATHER - Main 
 WEDNESDAY - Main 
+WEEK - Main 
 WEEKEND - Main 
 WHAT - Main 
 WHAT'S - Main 
+WHITEROSE - Morpheme: WHIT EROSE 
+WHITEROSE - Morpheme: WHIT EROSE 
 WHO - Main 
 YORK - Main 
 YOU - Main 

@@ -7,13 +7,13 @@ before_install:
   - sudo add-apt-repository "deb http://mirrors.kernel.org/ubuntu zesty main universe"
   - sudo apt-get update
   - sudo apt-get install $(cat deb_reqs.txt)
-  - cd kim/
+  - cd whiterose/
   - sudo python setup.py develop
   - cd ../
-  - export PYTHONPATH="${PYTHONPATH}:/home/travis/build/kim/kim/"
+  - export PYTHONPATH="${PYTHONPATH}:/home/travis/build/whiterose/whiterose/"
 
 install:
   - pip install unittest2
 
 script:
-  - python kim/tests/test_speech.py
+  - python whiterose/tests/test_speech.py

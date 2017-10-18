@@ -1,7 +1,7 @@
 import unittest
-from kim import kim
+from whiterose import whiterose
 
-spk = kim.Speak(device='plughw:0,0',
+spk = whiterose.Speak(device='plughw:0,0',
                 resources='../resources/audio')
 
 
@@ -12,8 +12,7 @@ class Speech(unittest.TestCase):
 
     def test_beep(self):
         print 'Beep'
-        spk.beep(0)
-        spk.beep(1)
+        spk.beep()
 
     def test_speak(self):
         print 'TTS Test'

@@ -55,15 +55,14 @@ class Speak(object):
         if isinstance(resources, dict):
             self._resources = resources
         else:
-            self._resources = {'beep_hi': os.path.join(resources, 'beep_hi.wav'),
-                               'beep_lo': os.path.join(resources, 'beep_lo.wav')}
+            self._resources = {'beep': os.path.join(resources, 'beep.wav')}
 
     def play(self, path):
         cmd = ['aplay', '-D', self._device, path]
         subprocess.call(cmd)
 
-    def beep(self, high):
-        f = self._resources['beep_hi' if high else 'beep_lo']
+    def beep(self):
+        f = self._resources['beep']
         self.play(f)
 
     def say(self, phrase):
@@ -78,7 +77,7 @@ class Speak(object):
 
 
 def listener(lstn, spk, callback,
-             callsign='Kim', attention_span=10, forever=True):
+             callsign='WHITEROSE', attention_span=10, forever=True):
     lstn.daemon = True
     lstn.start()
 
