@@ -32,7 +32,7 @@ _In order to get this working, you'll need to do the following:_
 
 ```sh
 
-sudo crontab -e
+$ sudo crontab -e
 
 @reboot sh /home/pi/whiterose/launcher.sh >/home/pi/logs/cronlog 2>&1
 
@@ -99,4 +99,3 @@ We're open for adding new features, please keep in mind that it should be of rel
 - [Morten Amundsen](https://github.com/mortea15/)
 - [Svenn-Roger Sørensen](https://github.com/tjodalv2k/)
 - [Benjamin Gutierrez Børresen](https://github.com/Bunnymann/)
-- [Erik Haaland](https://github.com/erih14/)
